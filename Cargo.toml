@@ -1,0 +1,10 @@
+[package]
+name = "lichess-importer"
+version = "0.1.0"
+authors = ["GaussGreen1 <favero.daniele123@yahoo.it>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10.10", features = ["json"] }
+tokio = { version = "0.2.21", features = ["macros"] }
+hyper = "0.13.5"
